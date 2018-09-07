@@ -1,11 +1,11 @@
 
-/* Assets (you'll use these later) */
+/* Image URLs (you'll use these later) */
 
 const earthImageUrl = 'https://res.cloudinary.com/tomduggan/image/upload/v1535219098/earth.jpg';
 const moonImageUrl = 'https://res.cloudinary.com/tomduggan/image/upload/v1535219207/moon.jpg';
 const marsImageUrl = 'https://res.cloudinary.com/tomduggan/image/upload/v1535219359/mars.jpg';
 
-/* START setup */
+/* Start setup */
 
 const screenWidth = window.innerWidth;
 const screenHeight = window.innerHeight;
@@ -27,9 +27,11 @@ const renderer = new THREE.WebGLRenderer();
 renderer.setSize(screenWidth, screenHeight);
 document.body.appendChild(renderer.domElement);
 
-/* END setup */
+/* end setup */
 
+/* Add your code here */
 
+/* Draw loop */
 function draw() {
   requestAnimationFrame(draw);
   renderer.render(scene, camera);
